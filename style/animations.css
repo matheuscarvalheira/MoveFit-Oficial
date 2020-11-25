@@ -1,0 +1,46 @@
+/* Here i am setting the animations that i will use on movifit.html or wherever we want */ 
+@keyframes up{
+    from {
+        opacity: 0;
+        transform: translateY(16px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0)   
+    }
+}
+
+@keyframes right{
+    from{
+        transform: translateX(-100%);
+    }
+    to{
+        transform: translateX(0);
+    }
+}
+
+@keyframes appear{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+.animate-up{
+    animation-name: up;
+    animation-duration: 1s;
+    animation-fill-mode: backwards;
+}
+
+.animate-right{
+    animation-name: right;
+    animation-duration: 500ms;
+}
+
+.animate-appear{
+    animation-name: appear;
+    animation-duration: 1s;
+    animation-fill-mode: backwards;
+}

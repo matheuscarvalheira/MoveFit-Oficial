@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    max-width: 1440px;
+    
+}
+
+body{
+    
+    background-size: 100%;
+    
+    background-color: #231F20;
+
+    
+
+}
+
+#container{
+    width: min(100%, 112rem);
+    height: 100vh;
+    
+    
+   
+
+}
+
+
+
+h1{
+    position: absolute;
+    width: 911px;
+    height: 87px;
+    left: 300px;
+    top: 238px;
+
+    font-family: Nunito;
+    font-style: italic;
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 87px;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+
+    color: #FFFFFF;
+
+}
+
+
+
+
+

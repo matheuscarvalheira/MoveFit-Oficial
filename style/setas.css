@@ -1,0 +1,26 @@
+/*Configurações da seta rosa a esquerda */
+aside {
+    width: 100px;
+  }
+  
+  aside a {
+    width: 60px;
+    height: 60px;
+    background: #CE05D2;
+  
+    border: none;
+    border-radius: 3rem;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    margin-left: 0.8rem;
+  
+    transition: background 200ms;
+    animation-delay: 250ms;
+  }
+  
+  aside a:hover {
+    background: #710473;
+  }

@@ -1,0 +1,125 @@
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login | Move Fit</title>
+
+    <link rel="stylesheet" href="style/animation.css" />
+    <link rel="stylesheet" href="style/login.css" />
+    <link rel="stylesheet" href="style/setas.css" />
+    
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital@1&family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
+    
+
+
+
+    <script>
+        //função quando está focado
+        function whiteLogin(){
+            //selecionando o input para sua manipulação
+            //muda quando tiver em foco
+            
+            document.getElementById('login').style.background = "#F1F4F5"
+            
+        }
+
+        function whiteSenha(){
+            //selecionando o input para sua manipulação
+            //muda quando tiver em foco
+            
+            document.getElementById('senha').style.background = "#F1F4F5"
+            
+        }
+
+        function resgataValorLogin(){
+            //selecionar o input para ver se a digitação está correta 
+            //recupera o valor
+            var valor =  document.getElementById('login').value
+
+            if(valor.length < 3){
+                
+                document.getElementById('login').style.background= "red"
+            }else{
+                document.getElementById('login').style.background= "#22D6E7"
+            }
+
+        }
+
+        function resgataValorSenha(){
+            //selecionar o input para ver se a digitação está correta 
+            //recupera o valor
+            var valor =  document.getElementById('senha').value
+
+            if(valor.length < 3){
+                
+                document.getElementById('senha').style.background= "red"
+            }else{
+                document.getElementById('senha').style.background= "#22D6E7"
+            }
+
+        }
+
+        //validação 
+        function confirma(){
+            var login = document.getElementById('login').value
+            var senha = document.getElementById('senha').value
+
+            if(login === ''){
+                alert('Login não foi inserido')
+            } else if(login.length < 3){
+                alert('Login muito  curto')
+            }
+
+            if(senha === ''){
+                alert('Senha não foi inserida')
+            } else if(senha.length < 3){
+                alert('Senha muito  curta')
+            }
+
+
+        }
+        
+
+    </script>
+    
+    
+</head>
+<body>
+
+    <div id="container-login"  > <!--container-->
+        <aside > <!--ínicio da estrutura da seta-->
+            <a href="">
+                <img src="images/arrow-back.svg" alt="">
+            </a>
+        </aside> <!--fim da seta-->
+
+    <div id="caixa-login" class="animate-appear"> <!--estrutura central do login-->
+        <h1>Faça seu login:</h1>
+       <form action="#" > <!--Início do formulário-->
+
+            <div class="input-block">
+                <label for="login">Login:</label>
+                <img src="images/user.svg" alt="" id="login-img">
+                <input type="text" name="login" id="login" required onfocus="whiteLogin()" onblur="resgataValorLogin();confirma();"  >
+            </div>
+
+            <div class="input-block">
+                <label for="senha">Senha:</label>
+                <input type="password" name="senha" id="senha" required onfocus="whiteSenha()" onblur="resgataValorSenha();confirma();"  > 
+                <span><a href="set_dados.html">Esqueci a senha</a></span>
+            </div>
+
+            <button type="subimit"><strong>Entrar</strong></button>
+            <span>Ainda não é nosso aluno?<a href="cadastro.html"> Clique aqui!</a></span>
+
+       </form> <!--fim do formulário-->
+
+       
+
+    </div> <!--fim da caixa de login-->
+
+    </div>
+
+    
+</body>
+</html>

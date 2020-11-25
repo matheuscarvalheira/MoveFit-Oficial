@@ -1,0 +1,80 @@
+
+*{
+  overflow: hidden;
+}
+
+#principal #caixa {
+  
+
+  border-radius: 5px;
+
+  text-align: center;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-top:180px;
+  
+
+  flex-direction: column;
+}
+
+#principal table{
+  
+  border-collapse: collapse;
+  background: #C4C4C4;
+  border: 1px  solid white;
+  padding:20px;
+
+  
+  margin: 0 auto 200px auto;
+  
+
+  width: 150px;
+  height: 260px;
+
+}
+
+#principal table th{
+  padding: 5px 5px 10px 5px;
+  border: 1px solid black;
+  color: black;
+
+  text-align: center;
+  background-color: #213a11;
+  
+}
+
+#principal h2{
+  font-family: Nunito;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 49px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #FFFFFF;
+
+  backdrop-filter: blur(4px);
+
+  margin-top:10px;
+}
+
+#principal table td{
+  border: 1px solid black;
+  color: #000000;
+  
+  padding: 5px 15px 8px 8px;
+
+  text-align: center;
+  
+}
+
+#principal h1{
+  margin-left: 100px;
+ 
+  color: white;
+}

@@ -1,0 +1,219 @@
+body{
+    
+    
+    
+    background: #231F20;
+    
+    background-repeat:no-repeat;
+    background-size: cover;
+    font-family: Nunito;
+
+    
+
+    font-family: 'Nunito';
+}
+
+
+
+
+
+
+
+/*Áreal lateral do perfil*/
+
+aside{
+    position: absolute;
+    width: 20%;
+    height: 15%;
+    left: -3.71px;
+    top: 196.73px;
+
+    border-radius: 0 20px 20px 0;
+
+    background: #0E787B;
+    opacity: 0.9;
+    
+    
+    
+    
+    
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    
+
+}
+
+aside img{
+    
+    width: 50px;
+    margin: 15px;
+    margin-left: 0;
+
+    
+}
+
+aside h2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+
+#caixa-lateral{
+    position: absolute;
+    width: 200px;
+    height: 250px;
+    left: 0;
+    top: 50%;
+
+    border-radius: 0 5px 5px 0;
+
+    background: #191919;
+    
+    
+
+    display: flex;
+    align-items: center;
+    
+    
+    flex-wrap: wrap;
+
+    font-family:'Comfortaa','Arial',sans-serif;
+    
+   
+
+
+    
+
+}
+
+#caixa-lateral a{
+    
+    width: 100%;
+    text-decoration: none;
+
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+
+    
+
+    margin-left: 10px;
+    
+    padding-bottom: 2px;
+    
+    cursor:normal;
+    
+
+    color: white;
+}
+
+
+#caixa-lateral a:hover{
+    color: #0E787B;
+    cursor:pointer;
+    
+    
+}
+
+/*Caixa do perfil*/
+
+
+
+#principal #caixa{
+
+    
+    position: relative;
+    width: 440px;
+    height: 400px;
+    
+    
+    color: white;
+
+    background:#191919;
+    
+    border-radius: 5px;
+
+   
+    
+
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    
+    flex-direction: column;
+    
+    
+    
+}
+
+
+
+    
+#caixa input{
+    position: relative;
+    width: 300px;
+    height: 37px;
+    
+    outline: none;
+    
+    background: #FFFFFF;
+    border-radius: 20px;
+    text-align: center;
+
+    
+    
+
+    
+    margin-top: 15px;
+
+    
+    
+    
+    
+
+    border: none;
+    
+    
+}
+
+/*Caixa dos perfis*/
+
+#caixa img{
+    
+    width: 60px;
+    height: 60px;
+
+    margin-top: 20px;
+    
+
+    
+}   
+
+#imagem-direita img{
+    float: right;
+    width: 30%;
+    height: 40%;
+    position: relative;
+    top:50px;
+    
+    
+
+}
+
+
+/*listagem de horários e alunos*/
+
+#caixa .listagem{
+    overflow: scroll;
+    width:80%;
+    margin: 0 auto;
+    padding:20px;
+}
+

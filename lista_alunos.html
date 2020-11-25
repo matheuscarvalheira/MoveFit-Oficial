@@ -1,0 +1,273 @@
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Horários | Move Fit</title>
+    <link rel="icon" href="./icons/logo.svg">
+
+    <link rel="stylesheet" href="style/animation.css" />
+	
+	<link rel="stylesheet" href="style/main-header.css">
+    <link rel="stylesheet" href="style/main.css">
+    <link rel="stylesheet" href="style/caixa.css">
+    <link rel="stylesheet" href="style/perfil.css">
+    <link rel="stylesheet" href="style/animation.css">
+    
+    
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+
+    
+    
+</head>
+<body>
+
+    <div id="container">
+
+		<div id="page-header">
+            <header>
+                <h4 class="animate-appear"><a href="confira-aqui.html">Confira aqui</a> os horários de funcionamento da sua Move Fit e as exigências do decreto local de sua cidade.</h3>
+            </header>
+    
+            <nav id="page-cabecalho"> 
+                <h2 class="animate-up">Move <span>Fit</span></h2>
+                <ul class="animate-up">
+                    <li><a href="tabela_aulas.html">TABELA</a></li>
+                    <li><a href="treino.html">GERAR TREINO</a></li>
+                    <li><a href="unidades.html">UNIDADES</a></li>
+                    <li><a href="perfil.html">PERFIL</a></li>
+                    <li><a href="mapa_interno.html">MAPA INTERNO</a></li>
+                </ul>
+    
+               
+            </nav>
+        </div>
+          <!--Fim do header -->
+
+        
+
+        <aside class="animate-side">
+            <h2><img src="images/profile_side.svg" >Alunos!</h2>
+            
+        </aside>
+        
+
+
+        <div id="principal"> <!--Conteúdo principal-->
+        
+            <div id="caixa">
+                <h2>Alunos cadastrados</h2>
+                <div class="listagem">
+
+                </div>
+              </div> 
+        
+        
+        
+        </div>
+            
+        
+
+        
+        
+
+
+        
+    </div> <!--Fim do container-->
+    
+    <script>
+
+        function criaTabela1(){
+            var teste = document.getElementById("teste");
+            teste.innerHTML = [
+            '<table>',
+                '<tr>',
+                        '<th>Exercícios</th>',
+                        '<th>Série</th>',
+                        '<th>Intensidade</th>',
+                    '</tr>',
+                    '<tr>',
+                        '<td>SUPINO INCLINADO</td>',
+                        '<td>4x8-10</td>',
+                        '<td>80%</td>',
+                        
+                        
+                    '</tr>',
+
+                    
+                    '<tr>',
+                        '<td>CRUCIFIXO</td>',
+                        '<td>4x6-12</td>',
+                        '<td>70%</td>',
+                    '</tr>',
+
+                    '<tr>',
+                        '<td>SUPINO C/ BARRA</td>',
+                        '<td>4x8-10</td>',
+                        '<td>80%</td>',
+                    '</tr>',
+
+
+                    '<tr>',
+                        '<td>VOADOR</td>',
+                        '<td>4x6-12</td>',
+                        '<td>70%</td>',
+                    '</tr>',
+
+
+                    '<tr>',
+                        '<td>ABD. INSISTÊNCIA</td>',
+                        '<td>4XMÁX</td>',
+                        '<td>80%</td>',
+                    '</tr>',
+            '</table>'
+            ].join("\n");
+        }
+
+
+        function criaTabela2(){
+            var teste = document.getElementById("teste");
+            teste.innerHTML = [
+            '<table>',
+                '<tr>',
+                        '<th>Exercícios</th>',
+                        '<th>Série</th>',
+                        '<th>Intensidade</th>',
+                    '</tr>',
+                    '<tr>',
+                        '<td>LEVANTAMENTO</td>',
+                        '<td>4x8-10</td>',
+                        '<td>20%</td>',
+                        
+                        
+                    '</tr>',
+
+                    
+                    '<tr>',
+                        '<td>PULLEY FRONTAL</td>',
+                        '<td>4x6-12</td>',
+                        '<td>40%</td>',
+                    '</tr>',
+
+                    '<tr>',
+                        '<td>PULLEY ATRÁS</td>',
+                        '<td>4x8-10</td>',
+                        '<td>45%</td>',
+                    '</tr>',
+
+
+                    '<tr>',
+                        '<td>REMADA</td>',
+                        '<td>4x6-12</td>',
+                        '<td>70%</td>',
+                    '</tr>',
+
+
+                    '<tr>',
+                        '<td>SERROTE</td>',
+                        '<td>4XMÁX</td>',
+                        '<td>90%</td>',
+                    '</tr>',
+            '</table>'
+            ].join("\n");
+        }
+
+        function criaTabela3(){
+            var teste = document.getElementById("teste");
+            teste.innerHTML = [
+            '<table>',
+                '<tr>',
+                        '<th>Exercícios</th>',
+                        '<th>Série</th>',
+                        '<th>Intensidade</th>',
+                    '</tr>',
+                    '<tr>',
+                        '<td>LEG PRESS</td>',
+                        '<td>4x8-10</td>',
+                        '<td>10%</td>',
+                        
+                        
+                    '</tr>',
+
+                    
+                    '<tr>',
+                        '<td>EXTENSOR</td>',
+                        '<td>4x6-12</td>',
+                        '<td>20%</td>',
+                    '</tr>',
+
+                    '<tr>',
+                        '<td>FLEXORA</td>',
+                        '<td>4x8-10</td>',
+                        '<td>100%</td>',
+                    '</tr>',
+
+
+                    '<tr>',
+                        '<td>CADEIRA ADUTORA</td>',
+                        '<td>4x6-12</td>',
+                        '<td>70%</td>',
+                    '</tr>',
+
+
+                    '<tr>',
+                        '<td>STIFF</td>',
+                        '<td>4XMÁX</td>',
+                        '<td>40%</td>',
+                    '</tr>',
+            '</table>'
+            ].join("\n");
+        }
+
+
+        
+
+
+
+
+        function pegaValor(){
+            
+            //pega o valor
+            var select = document.getElementById('categorias');
+            var value = select.options[select.selectedIndex].value;
+            console.log(value);
+            
+            if(value === '1'){
+                //apaga a tabela anterior
+                if( document.getElementById("minha-tabela") != null){
+                document.getElementById("minha-tabela").remove(); 
+            }
+                criaTabela1()
+
+        
+            }
+
+            if(value === '2'){
+                //apaga a tabela anterior
+                if( document.getElementById("minha-tabela") != null){
+                document.getElementById("minha-tabela").remove(); 
+            }
+                criaTabela2()
+
+        
+            }
+
+
+            if(value === '3'){
+                //apaga a tabela anterior
+                if( document.getElementById("minha-tabela") != null){
+                document.getElementById("minha-tabela").remove(); 
+            }
+                criaTabela3()
+
+        
+            }
+            
+        }
+
+        
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,72 @@
+body{
+    background-color: rgb(26, 22, 22);
+}
+
+#top-page-landing{
+    border-bottom: 3px solid grey;
+
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#top-page-landing h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FF005C;
+
+    margin-top: 25px;
+}
+
+#page-landing h2{
+    color: #FF005C;
+    font-size: 1.8rem;
+    margin-left: 15px;
+}
+
+#page-landing p{
+    
+    color: white;
+    font-size: 1.4rem;
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+#page-landing{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+#page-landing img{
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+#page-landing li{
+    list-style: none;
+    color: white;
+    font-size: 1.4rem;
+    margin-left: 5px;
+    padding: 10px;
+}
+
+#footer-page-landing{
+    background-color: #FF005C;
+    color: black;
+    
+    height: 50px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#footer-page-landing p{
+    font-size: 1.4rem;
+    font-weight: bold;
+    
+    margin-left: 10px;
+}

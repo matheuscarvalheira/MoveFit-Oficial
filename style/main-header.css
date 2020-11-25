@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Comfortaa', cursive;
+    
+    
+}
+
+#page-header{
+    width: min(100%, 112rem);
+    
+    
+}
+
+#page-header h2{ /* About MOVE */
+    color: white;
+    font-size: 3.2rem;
+    font-family: 'Dancing Script', cursive;
+}
+
+#page-header span{ /* About FIT */
+    color: #FF005C;
+    font-family: 'Dancing Script', cursive;
+}
+
+#page-header header{ /* First div / About covid */
+    background: #FF005C;
+    padding: 18px;
+    text-align: center;
+    color: white;
+    
+}
+
+#page-header header h4{
+    font-size: 0.9rem;
+    font-weight: 300;
+}
+
+#page-header header h4 a{
+    text-decoration: none;
+    color: black;
+    font-weight: 1000;
+
+    cursor: pointer;
+}
+
+#page-cabecalho{
+    background: #333333;
+    padding: 20px;
+    
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    height: 15%;
+    
+}
+
+#page-cabecalho ul{
+    padding: 30px;
+
+    list-style: none;
+
+    display: flex;
+    align-items: center;
+}   
+
+#page-cabecalho ul li{
+    margin-left: 50px;
+}
+
+#page-cabecalho ul li a{  
+    padding: 10px;
+    color:white;
+    text-decoration: none;
+
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+#page-cabecalho ul li a:hover{
+    color:white;
+    background:#FF005C;
+
+    border-radius: 20px;
+}
+
+#page-cabecalho #cadastrar{
+    text-decoration: none;
+
+    font-size: 0.8rem;
+    width: 150px;
+    height: 3.0rem;
+
+    cursor: pointer;
+
+    background: black;
+
+    border-radius: 2rem;
+    color: white;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    transition: background-color 0.2s;
+}
+#page-cabecalho a#cadastrar{
+    font-weight: 1000;
+}
+/* Finishing page-cabecalho with ul, page-header and also fonts as h2, h4 and span. */

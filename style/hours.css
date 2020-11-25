@@ -1,0 +1,140 @@
+body{
+    background: url('../images/fundo-hours.jpeg') no-repeat ;
+    background-size: 100%;
+    overflow-y: hidden;
+    
+    
+}
+
+
+#container{
+    color: #ffffff;
+}
+
+/*Conteúdo principal*/
+
+
+#principal{
+    margin-top:120px;
+    margin-left: 90px;
+    
+    display:flex;
+
+    
+    width: 550px;
+    height: 100px;
+    background-color: rgba(0,0,0,0.8);
+    padding:110px;
+    
+
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    border-radius: 10px;
+
+    
+}
+
+#data,
+#hour{
+    margin-left: 30px;
+}
+
+
+#data input,
+#hour select{
+    
+    display: flex;
+    margin-top: 30px;
+    width: 200px;
+    height: 42.89px;
+    
+    
+    background: #FFFFFF;
+    border-radius: 100px;
+    border: none;
+
+    align-items: center;
+    justify-content: center;
+    
+    padding: 10px;
+
+
+    
+}
+
+#hour select{
+    margin-left:10px;
+
+}
+
+
+#principal #hour,
+#principal #data{
+    margin-right: 20px;;
+    font-size: 15px;
+    font-family: "Helvetica Neue",sans-serif;
+    color:#000000;
+    text-align: center;
+
+}
+
+#data label,
+#hour label{
+    padding: 15px;
+    position: relative;
+    left: 4px;
+
+    font-family: 'Nunito';
+    font-weight: 800;
+    background: #55C3FB;
+    
+    border-radius: 2px;
+    
+    
+    border:none;
+}
+
+/*Conteúdo Lateral*/
+
+aside img{
+    
+    
+    float: right;
+    width: 50%;
+    height: 43%;
+    position: relative;
+    bottom: 220px;
+    
+    
+}
+
+/*Botões*/
+
+button {
+    background-color: #1A818A;
+    margin-left: -120px;
+    padding: 5px 25px 5px 25px;
+    
+    border-radius:  20px;
+  
+    border:none;
+    cursor: pointer;
+  
+    position: relative;
+    top: 70px;
+    
+    
+    
+    
+  }
+  
+  button:hover {
+    
+    
+  
+    background: #22D6E7;
+    color: white;
+  }
+

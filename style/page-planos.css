@@ -1,0 +1,100 @@
+body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../images/planos-background.png); 
+    background-size: cover;
+}
+
+#main-container{
+    display: grid;
+    grid-column-gap: 15px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+#container-planos{
+    padding: 30px;
+
+    text-align: center;
+}
+.container-plano-movi p{
+    margin-top: 30px;
+    font-size: 1.4rem;
+}
+
+#pink-color{ /* Defining the Span color */
+    color: #FF005C;
+}
+
+#container-planos h2{ /* Defining the h2 color */
+    color: white;
+}
+
+
+.container-plano-movi #valor-normal{
+    text-decoration: line-through #FF005C;
+    font-weight: 1000;
+
+}
+
+.container-plano-movi #valor-desconto{
+    text-decoration: underline #FF005C;
+    font-weight: 1000;
+    
+}
+
+.container-plano-movi{
+  
+    border-radius: 2rem ;
+    padding: 20px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
+    margin-right: 100px;
+    margin-left: 120px;
+    margin-top: -5px;
+
+    color: white;
+    
+    /*display: inline-block;*/
+}
+
+.container-plano-movi h2{
+    padding: 10px;
+    color:white;
+
+    background-color: black;
+    border-radius: 10px 10px 0 0;
+    text-align: center;
+}
+
+
+.container-plano-movi li{
+    color: white;
+    list-style: none;
+    padding: 10px;
+    margin-top: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-plano-movi a{ /* Button : Escolher */
+    text-decoration: none;
+
+    margin-top: 1.8rem;
+
+    width: 100%;
+    height: 3.0rem;
+
+    cursor: pointer;
+
+    background: black;
+
+    border-radius: 2rem;
+    color: white;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    transition: background-color 0.2s;
+}
+
+

@@ -1,0 +1,66 @@
+
+
+
+/*input, label{
+    display: block;
+    width: 100%;
+}
+
+label{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+a{
+    color: #FF6990 ;
+}
+
+form{
+    display: block;
+    margin-bottom: -25px;
+}
+
+input{
+    border-radius: 2rem;
+    padding: 10px;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color:  #231F20;
+}
+
+.input-block{
+    flex: 1 1 100%;
+    position: relative;
+}
+
+input[type="submit"]{
+    background-color: #FF6990;
+    color: white;
+    border-radius: 2rem;
+    height: 4rem;
+    border: none;
+    cursor: pointer;
+
+}
+
+input[type="submit"]:hover{
+    background-color: #fd95b1;
+}
+
+*/
+
+
+/*Imagem de fundo padrão para utilizar caixas*/
+
+body{
+    
+    padding-top: 5vh;
+    
+    background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)),
+        url('../images/fundo_formularios.jpg');
+    background-repeat:no-repeat;
+    background-size: cover;
+    font-family: Nunito;
+
+    color: #ffffff;
+}

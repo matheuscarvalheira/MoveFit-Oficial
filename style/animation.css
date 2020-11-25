@@ -1,0 +1,69 @@
+/* Animações */
+
+@keyframes up {
+    from {
+      opacity: 0;
+      transform: translateY(50%);
+    }
+  
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  
+  
+  @keyframes appear{
+    from {
+      opacity: 0;
+  
+    }
+  
+    to{
+      opacity: 1;
+  
+    }
+  }
+
+
+   @keyframes side{
+    from {
+      transform: translateX(-300px);
+      opacity:0.9;
+    }
+  
+    to{
+      transform: translateX(1%);
+      
+  
+    }
+  }
+  
+  
+  
+  
+  
+  
+  .animate-up {
+    animation-name: up;
+    animation-duration: 250ms;
+    animation-fill-mode: backwards;
+  }
+  
+
+  
+  .animate-appear{
+  
+    animation-name: appear;
+    animation-duration:2500ms;
+    animation-fill-mode: backwards;
+  
+  
+  }
+
+  .animate-side{
+    animation-name: side;
+    animation-duration:1000ms;
+    animation-fill-mode: backwards;
+  }
