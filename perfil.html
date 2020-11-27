@@ -22,7 +22,7 @@
     
     
 </head>
-<body>
+<body onload="getUser()">
 
     <div id="container">
 
@@ -59,6 +59,7 @@
             
             <a href="set_dados.html">Editar seus dados</a>
             <a href="horario.html">Agendar Horário</a>
+            <a href="lista_horarios.html">Lista de horários</a>
             <a href="contato.html">Ajuda</a>
             
 
@@ -67,12 +68,24 @@
 
         <div id="principal"> <!--Conteúdo principal-->
                 
-            <div id="caixa">
-                <img src="images/profile.svg" alt="">
-                <input type="text"  disabled="disabled" placeholder="Nome">
-                <input type="text"  disabled="disabled" placeholder="E-mai">
-                <input type="text"  disabled="disabled" placeholder="Endereço"> 
-                <input type="text"  disabled="disabled" placeholder="CPF"> 
+            <div id="content">
+                <div id="sections">
+                    <div id="caixa">
+                        <img src="images/profile.svg" alt="">
+        
+                    </div>
+                    <div id="caixa2">
+                        <h2>Treino Proposto</h2>
+                        <div id="teste"></div>
+              
+                        <select name="categorias" id="categorias" onclick="pegaValor()">
+                          <option value="#">Categorias</option>
+                          <option value="1">Categoria A</option>
+                          <option value="2">Categoria B</option>
+                          <option value="3">Categoria C</option>
+                        </select>
+                      </div>
+                </div> 
             </div>
 
 		</div>
@@ -84,6 +97,6 @@
 
 	</div> <!--Fim do container-->
 
-    
+    <script src="./scripts/profile.js"></script>
 </body>
 </html>

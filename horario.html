@@ -17,7 +17,7 @@
     
     
 </head>
-<body>
+<body onload="getUser()">
 
     <div id="container">
 
@@ -51,7 +51,7 @@
 			
 				<label for="">Escolha uma data:</label>
 
-				<input type="date">
+				<input id="hdate" type="date">
 
 			</div><!--Fim da escolha pra data-->
 
@@ -62,18 +62,25 @@
 			
 				<label for="">Escolha um horário:</label>
 
-				<select name="" id="">
-					<option value="">13:00h</option>
-					<option value="">14:00h</option>
-					<option value="">15:00h</option>
-					<option value="">16:00h</option>
-					<option value="">17:00h</option>
-					<option value="">18:00h</option>
-					<option value="">19:30h</option>
+				<select name="" id="hour" onchange="getSelectedOption(this.value)">
+					<option 
+						selected
+						value="select"
+						disabled
+					>
+						Selecione um horário
+				</option>
+					<option value="13:00h">13:00h</option>
+					<option value="14:00h">14:00h</option>
+					<option value="15:00h">15:00h</option>
+					<option value="16:00h">16:00h</option>
+					<option value="17:00h">17:00h</option>
+					<option value="18:00h">18:00h</option>
+					<option value="19:30h">19:30h</option>
 				</select>
 			</div><!-- Fim da escolha pro horário-->
 
-			<button type="button">Enviar</button>
+			<button id="schedule" type="button">Enviar</button>
 		</div> <!--Fim do conteúdo principal-->
 		
 		
@@ -87,6 +94,6 @@
 
 	</div> <!--Fim do container-->
 
-    
+    <script src="./scripts/schedule.js"></script>
 </body>
 </html>

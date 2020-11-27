@@ -1,219 +1,235 @@
-body{
-    
-    
-    
-    background: #231F20;
-    
-    background-repeat:no-repeat;
-    background-size: cover;
-    font-family: Nunito;
+body {
+  background: #231f20;
 
-    
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: Nunito;
 
-    font-family: 'Nunito';
+  font-family: "Nunito";
 }
-
-
-
-
-
-
 
 /*Áreal lateral do perfil*/
 
-aside{
-    position: absolute;
-    width: 20%;
-    height: 15%;
-    left: -3.71px;
-    top: 196.73px;
+aside {
+  position: absolute;
+  width: 20%;
+  height: 15%;
+  left: -3.71px;
+  top: 196.73px;
 
-    border-radius: 0 20px 20px 0;
+  border-radius: 0 20px 20px 0;
 
-    background: #0E787B;
-    opacity: 0.9;
-    
-    
-    
-    
-    
+  background: #0e787b;
+  opacity: 0.9;
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    
-
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-aside img{
-    
-    width: 50px;
-    margin: 15px;
-    margin-left: 0;
-
-    
+aside img {
+  width: 50px;
+  margin: 15px;
+  margin-left: 0;
 }
 
-aside h2{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    
+aside h2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
+#caixa-lateral {
+  position: absolute;
+  width: 200px;
+  height: 250px;
+  left: 0;
+  top: 50%;
 
-#caixa-lateral{
-    position: absolute;
-    width: 200px;
-    height: 250px;
-    left: 0;
-    top: 50%;
+  border-radius: 0 5px 5px 0;
 
-    border-radius: 0 5px 5px 0;
+  background: #191919;
 
-    background: #191919;
-    
-    
+  display: flex;
+  align-items: center;
 
-    display: flex;
-    align-items: center;
-    
-    
-    flex-wrap: wrap;
+  flex-wrap: wrap;
 
-    font-family:'Comfortaa','Arial',sans-serif;
-    
-   
-
-
-    
-
+  font-family: "Comfortaa", "Arial", sans-serif;
 }
 
-#caixa-lateral a{
-    
-    width: 100%;
-    text-decoration: none;
+#caixa-lateral a {
+  width: 100%;
+  text-decoration: none;
 
-    font-family: Nunito Sans;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 30px;
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
 
-    
+  margin-left: 10px;
 
-    margin-left: 10px;
-    
-    padding-bottom: 2px;
-    
-    cursor:normal;
-    
+  padding-bottom: 2px;
 
-    color: white;
+  cursor: normal;
+
+  color: white;
 }
 
+#caixa-lateral a:hover {
+  color: #0e787b;
+  cursor: pointer;
+}
 
-#caixa-lateral a:hover{
-    color: #0E787B;
-    cursor:pointer;
-    
-    
+#principal {
+  display: flex;
+  justify-content: center;
+  margin: 70px;
 }
 
 /*Caixa do perfil*/
 
+#principal #caixa {
+  width: 440px;
+  height: 400px;
 
+  color: white;
 
-#principal #caixa{
+  background: rgb(25, 25, 25, 0.5);
 
-    
-    position: relative;
-    width: 440px;
-    height: 400px;
-    
-    
-    color: white;
+  border-radius: 5px;
 
-    background:#191919;
-    
-    border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
-   
-    
-
-    display:flex;
-    align-items: center;
-    justify-content: center;
-    
-    flex-direction: column;
-    
-    
-    
+  flex-direction: column;
 }
 
+#principal #caixa2 {
+  width: 440px;
+  height: 400px;
 
+  color: white;
 
-    
-#caixa input{
-    position: relative;
-    width: 300px;
-    height: 37px;
-    
-    outline: none;
-    
-    background: #FFFFFF;
-    border-radius: 20px;
-    text-align: center;
+  background: rgb(25, 25, 25, 0.5);
 
-    
-    
+  border-radius: 5px;
 
-    
-    margin-top: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
-    
-    
-    
-    
+  flex-direction: column;
+}
 
-    border: none;
-    
-    
+#principal #caixa-horario {
+  width: 440px;
+  height: 400px;
+
+  color: white;
+
+  background: rgb(25, 25, 25, 0.5);
+
+  border-radius: 5px;
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: center;
+  flex-direction: column;
+  overflow-y: scroll;
+}
+
+#caixa-horario h2 {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+/*listagem de horários e alunos*/
+
+.listagem {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid #c3c3c3;
+}
+
+.div-hour,
+.div-date {
+  width: 120px;
+  height: 40px;
+  border: 1px solid #c3c3c3;
+}
+
+#principal #caixa2 button {
+  background-color: #1a818a;
+  color: black;
+
+  width: 170px;
+  height: 35px;
+
+  border-radius: 64px;
+  border: none;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin: 20px auto;
+
+  cursor: pointer;
+}
+
+#principal #caixa2 button:hover {
+  font-weight: 900;
+
+  background: #22d6e7;
+  color: white;
+}
+
+#content {
+  width: 67%;
+  position: absolute;
+  left: 350px;
+  bottom: 80px;
+}
+
+#sections {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#caixa input {
+  position: relative;
+  width: 300px;
+  height: 37px;
+
+  outline: none;
+
+  background: #ffffff;
+  border-radius: 20px;
+  text-align: center;
+
+  margin-top: 15px;
+
+  border: none;
 }
 
 /*Caixa dos perfis*/
 
-#caixa img{
-    
-    width: 60px;
-    height: 60px;
+#caixa img {
+  width: 60px;
+  height: 60px;
 
-    margin-top: 20px;
-    
-
-    
-}   
-
-#imagem-direita img{
-    float: right;
-    width: 30%;
-    height: 40%;
-    position: relative;
-    top:50px;
-    
-    
-
+  margin-top: 20px;
 }
 
-
-/*listagem de horários e alunos*/
-
-#caixa .listagem{
-    overflow: scroll;
-    width:80%;
-    margin: 0 auto;
-    padding:20px;
+#imagem-direita img {
+  float: right;
+  width: 30%;
+  height: 40%;
+  position: relative;
+  top: 50px;
 }
-
