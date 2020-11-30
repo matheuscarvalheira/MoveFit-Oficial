@@ -31,6 +31,11 @@ function getUser() {
   caixa.appendChild(uNumber);
 }
 
+function logout() {
+  localStorage.removeItem("user");
+  window.location.href = "./index.html";
+}
+
 function criaTabela1() {
   var teste = document.getElementById("teste");
   teste.innerHTML = [
