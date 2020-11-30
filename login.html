@@ -98,7 +98,7 @@
               id="login"
               required
               onfocus="whiteLogin()"
-              onblur="resgataValorLogin();confirma();"
+              
             />
           </div>
 
@@ -110,12 +110,12 @@
               id="senha"
               required
               onfocus="whiteSenha()"
-              onblur="resgataValorSenha();confirma();"
+              
             />
             <span><a href="set_dados.html">Esqueci a senha</a></span>
           </div>
 
-          <button id="login-button" type="submit">
+          <button id="login-button" type="submit" onclick="confirma();">
             <strong>Entrar</strong>
           </button>
           <span
