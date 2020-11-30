@@ -1,3 +1,24 @@
+#caixa-update {
+  background: #231f20;
+  width: 500px;
+  height: 550px;
+  position: absolute;
+  left: 452.7px;
+  top: 100.05px;
+  border-radius: 10px;
+}
+
+#caixa-update h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-top: 30px;
+  margin-bottom: 20px;
+  line-height: 33px;
+  font-size: 25px;
+}
+
 #caixa h1 {
   display: flex;
   align-items: center;
