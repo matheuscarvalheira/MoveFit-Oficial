@@ -1,6 +1,7 @@
 document
   .getElementById("submit")
   .addEventListener("click", async function (event) {
+    event.preventDefault();
     var email = document.getElementById("email").value;
     var name = document.getElementById("name").value;
     var surname = document.getElementById("lastname").value;
@@ -11,7 +12,7 @@ document
 
     var newDate = date.toString();
 
-    fetch("http://localhost:3333/user", {
+    await fetch("http://localhost:3333/user", {
       method: "POST",
       body: JSON.stringify({
         email,
@@ -27,11 +28,14 @@ document
         Accept: "application/json",
         "Content-Type": "application/json",
       },
-    })
-      .then((response) => {
-        if (response.json) {
-          alert("Usuário cadastrado com sucesso");
-        }
-      })
-      .catch(alert("Erro ao cadastrar usuário"));
+    }).then(async (response) => {
+      var res = await response.json();
+      console.log(res);
+      if (res._id) {
+        alert(res);
+        window.location.href = "./login.html";
+      } else if (res.error) {
+        alert(res.error);
+      }
+    });
   });
