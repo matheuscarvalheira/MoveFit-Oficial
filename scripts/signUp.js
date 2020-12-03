@@ -32,7 +32,7 @@ document
       var res = await response.json();
       console.log(res);
       if (res._id) {
-        alert(res);
+        alert('Usuário cadastrado com sucesso!');
         window.location.href = "./login.html";
       } else if (res.error) {
         alert(res.error);
