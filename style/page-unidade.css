@@ -31,7 +31,7 @@ body{
 }
 
 .location{
-    margin-top: 20px;
+    
 
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
     border-radius: 10px;
@@ -46,7 +46,7 @@ body{
 }
 
 .location img{
-    margin-left: 175px;
+    margin-left: 130px;
 }
 
 .location .icons-location{
